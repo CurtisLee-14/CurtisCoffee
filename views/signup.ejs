@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <%- include("partials/header.ejs")  %>
+
+    <div class="container">
+        <div class="focal">
+            <h3 class="header">Sign up for our news letter!</h3>
+            <h5 class="description">
+                Sign up for our news letter to get the latest updates on our seasonal items, coupons, and learn about events and new products!
+            </h5>
+            <div class="signform">
+                <form action="/signup1" method="POST" class="signupform">
+                    <h6>Email Address</h6>
+                    <input
+                     type="email" 
+                     name="email"
+                     placeholder="Email" 
+                     class="form-control"
+                     id="email"
+                    />
+                    <button type="submit" class="button">Sign Up</button>
+                </form>
+                <div id="message"></div>
+                <img src="images/baristas.jpeg" alt="" >
+                <img src="/images/drip.jpeg" alt="">
+                <img src="images/frap.jpeg" alt="">
+                <img src="images/muffins.jpeg" alt="">
+                <img src="images/red-velvet.jpeg" alt="">
+                <img src="images/latte.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>

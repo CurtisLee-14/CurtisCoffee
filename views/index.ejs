@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curtis' Coffee</title>
+</head>
+<body>
+    <%- include("partials/header.ejs")  %>
+    
+    <div class="container">
+        <div class="focal">
+            <h1>Welcome!</h1>
+            <h2>to Curtis' Coffee</h2>
+            <div class="box1">
+                <div class="card" style="max-width: 75%; border-color: black;" >
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="/images/heart-muffins.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Seasonal!</h5>
+                            <p class="card-text">Please come in and try our Valentine's Day themed coffees and pastries! From the heart shaped muffin, to the Cupid's Cup of Cocoa, there is plenty to choose from!</p>
+                            <a href="/menu"><button class="button">Menu</button></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="card" style="max-width: 75%; border-color: black;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/ama.png" class="img-fluid rounded-start" alt="american heart association">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">American Heart Association</h5>
+                            <p class="card-text">The American Heart Association is a wonderful service that puts millions into helping people. It is important to help the helpless, so if you can, donate!</p>
+                            <a href="https://www.heart.org/"><button class="button">Donate</button></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="card" style="max-width: 75%; border-color: black;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/home-coffee.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Learn About US!</h5>
+                        <p class="card-text"><a href=""></a>Learn about us! Everything that went into our coffee, shop, and team, and how your support keeps us thriving!</p>
+                        <a href="/about"><button class="button">About</button></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>
